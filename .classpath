@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/wlsMonitoringInstance"/>
+	<classpathentry kind="lib" path="/Users/jalenwang/Documents/work/software/struts-2.5.2/lib/json-lib-2.3-jdk15.jar"/>
+	<classpathentry kind="lib" path="/Users/jalenwang/Documents/work/software/struts-2.5.2/lib/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="/Users/jalenwang/Documents/work/software/struts-2.5.2/lib/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/jalenwang/Downloads/httpcomponents-client-4.5.2/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/jalenwang/Downloads/httpcomponents-client-4.5.2/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="/Users/jalenwang/Downloads/httpcomponents-client-4.5.2/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/jalenwang/Documents/work/software/yamlbeans-1.06/yamlbeans-1.06.jar"/>
+	<classpathentry kind="lib" path="/Users/jalenwang/Documents/work/software/struts-2.5.2/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="/Users/jalenwang/Oracle/Middleware/wlserver_10.3/server/lib/weblogic.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
