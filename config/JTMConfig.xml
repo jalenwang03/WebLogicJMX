@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Update Metrics name</comment>
+<entry key="ServerUserName">admin</entry>
+<entry key="ServerAuthUrl">/auth/signin</entry>
+<entry key="ServerPort">3000</entry>
+<entry key="LogLevel">Debug</entry>
+<entry key="LogPath">/tmp/wlsmonitoring.log</entry>
+<entry key="ServerPassword">admin123</entry>
+<entry key="CollectorUpdate">60</entry>
+<entry key="CIUrl">/cfgitems</entry>
+<entry key="ConfigUpdateInterval">10</entry>
+<entry key="Metrics">server.State,jvm.HeapFreeCurrent,jvm.HeapFreePercent,jvm.HeapSizeCurrent,thread.CompletedRequestCount,thread.ExecuteThreadTotalCount,thread.HealthState,thread.HoggingThreadCount,thread.QueueLength,thread.Throughput,jdbc.State,jdbc.ConnectionsTotalCount,jdbc.CurrCapacity,jdbc.LeakedConnectionCount,webapp.Name,webapp.Status,webapp.OpenSessionsCurrentCount</entry>
+<entry key="server.State.alias">100</entry>
+<entry key="jvm.HeapFreeCurrent.alias">200</entry>
+<entry key="jvm.HeapFreePercent.alias">201</entry>
+<entry key="jvm.HeapSizeCurrent.alias">202</entry>
+<entry key="thread.CompletedRequestCount.alias">300</entry>
+<entry key="thread.ExecuteThreadTotalCount.alias">301</entry>
+<entry key="thread.HealthState.alias">302</entry>
+<entry key="thread.HoggingThreadCount.alias">303</entry>
+<entry key="thread.QueueLength.alias">304</entry>
+<entry key="thread.Throughput.alias">305</entry>
+<entry key="jdbc.State.alias">400</entry>
+<entry key="jdbc.ConnectionsTotalCount.alias">401</entry>
+<entry key="jdbc.CurrCapacity.alias">402</entry>
+<entry key="jdbc.LeakedConnectionCount.alias">403</entry>
+<entry key="jdbc.ActiveConnectionsCurentCount">403</entry>
+<entry key="webapp.Name.alias">500</entry>
+<entry key="webapp.Status.alias">501</entry>
+<entry key="webapp.OpenSessionsCurrentCount.alias">502</entry>
+<entry key="server.State.type">Int</entry>
+<entry key="jvm.HeapFreeCurrent.type">Long</entry>
+<entry key="jvm.HeapFreePercent.type">Double</entry>
+<entry key="jvm.HeapSizeCurrent.type">Long</entry>
+<entry key="thread.CompletedRequestCount.type">Long</entry>
+<entry key="thread.ExecuteThreadTotalCount.type">Long</entry>
+<entry key="thread.HealthState.type">int</entry>
+<entry key="thread.HoggingThreadCount.type">Long</entry>
+<entry key="thread.QueueLength.type">Double</entry>
+<entry key="thread.Throughput.type">Double</entry>
+<entry key="jdbc.State.type">Int</entry>
+<entry key="jdbc.ConnectionsTotalCount.type">Long</entry>
+<entry key="jdbc.CurrCapacity.type">Long</entry>
+<entry key="jdbc.LeakedConnectionCount.type">Long</entry>
+<entry key="webapp.Name.type">String</entry>
+<entry key="webapp.Status.type">Int</entry>
+<entry key="webapp.OpenSessionsCurrentCount.type">Long</entry>
+<entry key="ServerSendUrl">/mondata</entry>
+<entry key="ServerHost">115.159.193.51</entry>
+<entry key="subtype">wls.testServer</entry>
+<entry key="ciHostProp">adminHost</entry>
+<entry key="ciServerNameProp">ServerList</entry>
+<entry key="ciAdminPortProp">adminPort</entry>
+<entry key="ciAdminUserName">adminUsername</entry>
+<entry key="ciAdminPassword">adminPassword</entry>
+</properties>
